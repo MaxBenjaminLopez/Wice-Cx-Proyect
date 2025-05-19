@@ -1,0 +1,116 @@
+.Layout_Generator-content {
+    max-width: 140rem;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 2rem;
+    
+}
+
+.Layout_Generator-content-section {
+    max-width: 140rem;
+    margin: 0 auto;
+    display: grid;
+    column-gap: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+        "texto texto"
+        "input select"
+        "boton boton"
+    ;
+}
+
+.boton {
+    grid-area: boton;
+}
+
+.Layout_Generator-button {
+    margin-top: 3rem;
+    border:.2rem solid var(--violeta_medio);
+    background-color: var(--blanco);
+    color:var(--violeta_medio);
+    padding: 1.5rem 6rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.5;
+}
+
+.Layout_Generator-button:hover {
+    translate: 0rem -.5rem;
+}
+
+.Layout_Generator-button:focus{
+    background-color: var(--violeta_suave);
+    color: var(--blanco);
+    border: .2rem solid var(--violeta_suave);
+}
+
+.Layout_Generator-h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    grid-area: texto;
+}
+
+.Layout_Generator-input {
+    border-radius: 1rem;
+    border: 0rem solid;
+    outline: .1rem solid var(--gris_suave);
+    padding: 1rem;
+    letter-spacing: 0.5;
+    width: 100%;
+    grid-area: input;
+    margin-top: .5rem;
+}
+
+.Layout_Generator-input:focus {
+    outline: .2rem solid var(--violeta_medio);
+}
+
+.Layout_Generator-label {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.Layout_Generator-select {
+    flex-direction: column;
+    border-radius: 1rem;
+    border: 0rem solid;
+    outline: .1rem solid var(--gris_suave);
+    padding: 1rem;
+    letter-spacing: 0.5;
+    width: 100%;
+    grid-area: select;
+    margin-top: .5rem;
+    
+}
+
+.selected{ 
+    flex-direction: column;
+}
+
+.Layout_Generator-button-1 {
+    color: var(--blanco);
+    border: 0rem solid;
+    border-radius: .5rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    background-color: var(--violeta-oscuro);
+}
+
+.Layout_Generator-button-1:hover {
+    background-color: var(--violeta_medio);
+}
+
+.Layout_Generator-button-2 {
+    color: var(--blanco);
+    border: none;
+    padding: 1.5rem 3rem;
+    border-radius: .5rem;
+    font-weight: 500;
+    background-color: var(--gris);
+    margin-left: 2rem;
+}
+
+.Layout_Generator-button-2:hover {
+    background-color: var(--gris_oscuro);
+}
