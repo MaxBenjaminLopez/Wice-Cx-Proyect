@@ -11,36 +11,36 @@ export function Generator() {
         <>
             <Navbar />
 
-    {/*--------------------------Botones generador-----------------------------------*/}
+            {/*--------------------------Botones generador-----------------------------------*/}
             <section className='Layout_Generator-content'>
                 <button
                     className='Layout_Generator-button'>
-                    <FontAwesomeIcon icon={faFileLines} />
+                    <FontAwesomeIcon icon={faFileLines} className='icon' />
                     Generador
                 </button>
                 <button
                     className='Layout_Generator-button'>
-                    <FontAwesomeIcon icon={faClock} />
+                    <FontAwesomeIcon icon={faClock} className='icon' />
                     Historico
                 </button>
                 <button
                     className='Layout_Generator-button'>
-                    <FontAwesomeIcon icon={faGear} />
+                    <FontAwesomeIcon icon={faGear} className='icon' />
                     Panel de administracion
                 </button>
             </section>
 
 
-        {/*-------------------------- Generador de propuestas-----------------------------------*/}
-            <section className='Layout_Generator-content-section Layout_Generator-content-middle'>
+            {/*-------------------------- Generador de propuestas-----------------------------------*/}
+            <section className='Layout_Generator-content-section'>
                 <h2 className='Layout_Generator-h2'>Generador de Propuestas</h2>
 
-                <div className=''>
+                <div >
                     <label for="nombre" className='Layout_Generator-label'>Nombre de la Empresa</label>
                     <input className='Layout_Generator-input' type="text" id="nombre" placeholder='Ingrese el nombre de la empresa' />
                 </div>
 
-                <div className='selected'>
+                <div>
                     <label for="pais" className='Layout_Generator-label'>Filial</label>
                     <select name="pais" id="pais" className='Layout_Generator-select'>
                         <option value="">Selecciona una Filial</option>
@@ -51,14 +51,14 @@ export function Generator() {
                     </select>
                 </div>
 
-                <div className='boton'>
+                <div className='Layout_Generator-div-button'>
                     <button className='Layout_Generator-button-1'>
-                    <FontAwesomeIcon icon={faFileLines} />
+                        <FontAwesomeIcon icon={faFileLines} className='icon' />
                         Generar Propuesta
                     </button>
 
                     <button className='Layout_Generator-button-2'>
-                        <FontAwesomeIcon icon={faRotate} />
+                        <FontAwesomeIcon icon={faRotate} className='icon' />
                         Resetear
                     </button>
                 </div>
