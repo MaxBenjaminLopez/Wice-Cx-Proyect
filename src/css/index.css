@@ -1,8 +1,9 @@
 :root {
   --blanco: #ffffff;
   --negro: #000000;
-  --gris: #212529;
-  --gris_oscuro: #343a40;
+  --gris_suave: #9b9fa3;
+  --gris: #6b7280;
+  --gris_oscuro: #424950;
   --violeta_suave: #845ABF;
   --violeta: #891ad6;
   --violeta_medio: #4805A6;
