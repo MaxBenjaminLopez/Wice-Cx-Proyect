@@ -3,10 +3,10 @@
   --negro: #000000;
   --gris: #212529;
   --gris_oscuro: #343a40;
-  --violeta_suave: #dcb1ff;
+  --violeta_suave: #845ABF;
   --violeta: #891ad6;
-  --violet_medio: #741bae;
-  --violet_fuerte:#5f178c;
+  --violeta_medio: #4805A6;
+  --violeta-oscuro: #3C038C;
 }
 
 html {
@@ -15,12 +15,12 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-
+  margin: 0;
+  font-family: Segoe UI, sans-serif;
 }
 
-h1 { font-size: 3.8rem; /*1 rem: 10px*/ }
-h2 { font-size: 2.8rem; }
-h3 { font-size: 1.8rem; }
+h1 { font-size: 3.2rem; /*1 rem: 10px*/ }
+h2 { font-size: 2.2rem; font-weight: 400; }
+h3 { font-size: 1.2rem; }
 
 

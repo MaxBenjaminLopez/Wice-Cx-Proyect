@@ -1,0 +1,42 @@
+.navbar_login--content {
+     background-color: var(--violeta-oscuro);
+     width: 100vw;
+     height: 6rem;
+     color: aliceblue;
+     font-weight: bold;
+     font-size: 2rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.paragraph {
+     padding: 1rem;
+}
+
+.button {
+     color: white;
+     background-color: var(--violeta_medio);
+     border-style: none;
+     border-radius: 1rem;
+     padding: 1rem 2rem;
+     font-size: 1.5rem;
+     margin-right: 1rem;
+}
+
+ .button:hover {
+     background-color: var(--violeta_suave);
+     transition: all .5s;
+ }
+
+.icon {
+    padding-right: .5rem;
+} 
+
+.main_content--box{
+     max-width: 120rem;
+     margin: 0 auto;
+     text-align: center;
+     padding: 4rem 0px;
+     box-shadow: 7px 11px 39px -25px rgba(0, 0, 0, 1);
+}
