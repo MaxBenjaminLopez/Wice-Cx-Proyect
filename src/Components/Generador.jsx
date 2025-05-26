@@ -2,9 +2,8 @@ import { Navbar } from './navbar'
 import '../css/Layout-Generator.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileLines } from '@fortawesome/free-regular-svg-icons';
-import { faClock } from '@fortawesome/free-regular-svg-icons';
-import { faGear } from '@fortawesome/free-solid-svg-icons';
 import { faRotate } from '@fortawesome/free-solid-svg-icons';
+import { Links } from './Links';
 
 export function Generator() {
     return (
@@ -12,24 +11,8 @@ export function Generator() {
             <Navbar />
 
             {/*--------------------------Botones generador-----------------------------------*/}
-            <section className='Layout_Generator-content'>
-                <button
-                    className='Layout_Generator-button'>
-                    <FontAwesomeIcon icon={faFileLines} className='icon' />
-                    Generador
-                </button>
-                <button
-                    className='Layout_Generator-button'>
-                    <FontAwesomeIcon icon={faClock} className='icon' />
-                    Historico
-                </button>
-                <button
-                    className='Layout_Generator-button'>
-                    <FontAwesomeIcon icon={faGear} className='icon' />
-                    Panel de administracion
-                </button>
-            </section>
-
+            
+            <Links />
 
             {/*-------------------------- Generador de propuestas-----------------------------------*/}
             <section className='Layout_Generator-content-section'>
